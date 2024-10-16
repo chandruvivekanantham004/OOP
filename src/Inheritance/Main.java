@@ -2,6 +2,9 @@ package Inheritance;
 
 public class Main {
     public static void main(String[] args) {
+        //Box.greeting();
+        Box box = new Boxweight();
+        Box.greeting();
         //Box box = new Box();
 //       Box box1=new Box(box);
         // System.out.println(box.l+" "+box.w+" "+box.h);
@@ -18,11 +21,11 @@ public class Main {
         //but,here when the obj is of the parent class then how will you call the constructor of child class
         //so,it's going to give us error
         // Boxweight box4=new Box(3,3,3);  //error
-        BoxPrice obj = new BoxPrice();
-        System.out.println(obj.h);
-        Boxweight obj1 = new BoxPrice(4, 4, 4, 4, 222);
-        System.out.println(obj1.weight);
-        BoxPrice obj2 = new BoxPrice(3,4,345);
-        System.out.println(obj2.l);
+//        BoxPrice obj = new BoxPrice();
+//        System.out.println(obj.h);
+//        Boxweight obj1 = new BoxPrice(4, 4, 4, 4, 222);
+//        System.out.println(obj1.weight);
+//        BoxPrice obj2 = new BoxPrice(3,4,345);
+//        System.out.println(obj2.l);
     }
 }

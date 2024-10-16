@@ -4,6 +4,9 @@ public class Box {
      double l;
      double w;
      double h;
+     static void greeting(){
+         System.out.println("I am in Box, greeting!");
+     }
    Box(){
       this.l=1;
       this.w=1;
