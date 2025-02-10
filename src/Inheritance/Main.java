@@ -1,5 +1,7 @@
 package Inheritance;
 
+
+
 public class Main {
     public static void main(String[] args) {
         //Box.greeting();
@@ -27,5 +29,6 @@ public class Main {
 //        System.out.println(obj1.weight);
 //        BoxPrice obj2 = new BoxPrice(3,4,345);
 //        System.out.println(obj2.l);
+
     }
 }

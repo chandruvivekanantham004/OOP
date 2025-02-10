@@ -1,3 +1,5 @@
+
+
 public class Singleton {
     private Singleton(){
     }
@@ -6,5 +8,6 @@ public class Singleton {
         if(instance==null){
             instance= new Singleton();
         }return instance;
+
     }
 }
